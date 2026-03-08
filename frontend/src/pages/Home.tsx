@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Zap, BarChart, MessageSquare, ShieldCheck } from 'lucide-react';
 
-const IntroHome = () => {
+const Home = () => {
   return (
     <div className="animate-fade-in space-y-12 py-10">
       <section className="text-center space-y-4">
@@ -56,4 +56,4 @@ const FeatureLink = ({ to, icon, title, desc }: any) => (
   </Link>
 );
 
-export default IntroHome;
+export default Home;
